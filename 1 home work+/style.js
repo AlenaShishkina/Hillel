@@ -3,7 +3,7 @@ let age = prompt('Какого ты года рождения?');
 
 alert(name);
 alert (2021 - age);
-console.log(name, age)
+console.log(name, 2021 - age)
 
 let a = prompt('Введите число');
 let b = prompt('Введите число');
