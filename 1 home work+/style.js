@@ -15,6 +15,29 @@ let d = Number(a) + Number(b) + Number(c);
 console.log (d);
 console.log (d / 3);
 
+let chet = " ";
+let nochet = " ";
+
+if (a % 2 === 1) {
+    chet = chet + " " + a;
+} else {
+    nochet = nochet + " " + a;
+}
+
+if (b % 2 === 1) {
+    chet = chet + " " + b;
+} else {
+    nochet = nochet + " " + b;
+}
+
+if (c % 2 === 1) {
+    chet = chet + " " + c;
+} else {
+    nochet = nochet + " " + c;
+}
+alert ('нечетное' + chet);
+alert ('четное' + nochet);
+
 const number = Number(prompt("Введите пятизначное число"));
 
     const digit5=number%10;
