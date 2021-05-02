@@ -16,9 +16,9 @@ function createList(className) {
 
 const getDataBtn = createBtn("btn");
 getDataBtn.addEventListener("click", (event) => {
-    event.target.innerText = "getting data...";
+    event.target.innerText = "Getting data";
     event.target.setAttribute("disabled", "disabled");
-    getData("GET", url + count++, onLoad, onError);
+    getData("GET", url + count++);
 })
 
 document.body.appendChild(createList("list"));
